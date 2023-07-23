@@ -36,16 +36,26 @@ watch the results in the right.
 
 Dillinger uses a number of open source projects to work properly:
 
+### Frontend Application
 - [Core UI](https://github.com/Domesti-Microservice/core-ui) - UI Repo
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
+
+### Sidecar Services
+- [Reference Data Micro Service](https://github.com/Domesti-Microservice/user-svc) - Hold meta data objects for sharing accross services
+- [User Service](https://github.com/Domesti-Microservice/scripts-svc ) - User Microservices Repo
+- [User Service](https://github.com/Domesti-Microservice/user-svc) - User Microservices Repo
+- [Workflow](https://github.com/Domesti-Microservice/ph-workflow) - User Microservices Repo
+- [Kong API Gateway](https://github.com/Domesti-Microservice/kong-api-gateway ) - User Microservices Repo
+- [Data Migration](https://github.com/Domesti-Microservice/data-migration) - User Microservices Repo
+
+### Feature Microservices
+- [Finance Service](https://github.com/Domesti-Microservice/finance-svc) - Finance Microservices Repo
+- [User Service](https://github.com/Domesti-Microservice/user-svc) - User Microservices Repo
+- [Profile Service](https://github.com/Domesti-Microservice/profile-svc) - Profile Microservices Repo
+- [Contact Service](https://github.com/Domesti-Microservice/contact-svc) - Contact Microservices Repo
+- [Asset Manager Service](https://github.com/Domesti-Microservice/asset-manager-svc) - Asset Microservices Repo
+- [Organizer Service](https://github.com/Domesti-Microservice/organizer-svc) - Organizer Microservices Repo
+- [Messaging Service](https://github.com/Domesti-Microservice/messaging-svc) - Messaging Microservices Repo
+
 
 And of course Dillinger itself is open source with a [public repository][dill]
  on GitHub.
