@@ -1,4 +1,4 @@
-# ✨Domesti ✨ - A complete home affairs
+# ✨Domesti ✨ - A complete home affair platform
  
 ## Application Breakdowm
 
